@@ -1,0 +1,18 @@
+.health {
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+
+.health h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 670px) {
+    .health{
+        padding: 0 13px;
+    }
+  .health h3{
+    font-size: 16px;
+  }
+}

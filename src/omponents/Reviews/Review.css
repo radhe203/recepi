@@ -1,0 +1,19 @@
+.review{
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+.review h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 670px) {
+    .review{
+        padding: 0 13px;
+    }
+  .review h3{
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,53 @@
+.steps{
+    margin-top: 40px;
+}
+
+.steps h1{
+    text-align: center;
+}
+.steps hr{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 12px;
+    background-color: blueviolet;
+    border: 0;
+    height: 3px;
+}
+
+.real-steps{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.real-steps ol li{
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+@media only screen and (max-width:670px){
+    .steps{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .steps p{
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    .steps h1{
+        font-size:18px;
+    }
+    .steps hr{
+        margin-top: 5px;
+        height: 2px;
+    }
+    .real-steps ol li{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    
+}
